@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AE0312642071B9140067C06C /* JLsConnectivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0312632071B9140067C06C /* JLsConnectivityView.h */; };
 		AE0312662071B9140067C06C /* JLsConnectivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0312652071B9140067C06C /* JLsConnectivityView.m */; };
+		AE0312712071F09B0067C06C /* Speck.h in Headers */ = {isa = PBXBuildFile; fileRef = AE03126F2071F09B0067C06C /* Speck.h */; };
+		AE0312722071F09B0067C06C /* Speck.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0312702071F09B0067C06C /* Speck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		AE0312632071B9140067C06C /* JLsConnectivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLsConnectivityView.h; sourceTree = "<group>"; };
 		AE0312652071B9140067C06C /* JLsConnectivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLsConnectivityView.m; sourceTree = "<group>"; };
 		AE0312672071B9140067C06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE03126F2071F09B0067C06C /* Speck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speck.h; sourceTree = "<group>"; };
+		AE0312702071F09B0067C06C /* Speck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Speck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 				AE0312632071B9140067C06C /* JLsConnectivityView.h */,
 				AE0312652071B9140067C06C /* JLsConnectivityView.m */,
 				AE0312672071B9140067C06C /* Info.plist */,
+				AE03126F2071F09B0067C06C /* Speck.h */,
+				AE0312702071F09B0067C06C /* Speck.m */,
 			);
 			path = JLsConnectivity;
 			sourceTree = "<group>";
@@ -63,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0312642071B9140067C06C /* JLsConnectivityView.h in Headers */,
+				AE0312712071F09B0067C06C /* Speck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0312722071F09B0067C06C /* Speck.m in Sources */,
 				AE0312662071B9140067C06C /* JLsConnectivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

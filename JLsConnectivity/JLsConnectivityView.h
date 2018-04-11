@@ -7,7 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <Speck.h>
 
 @interface JLsConnectivityView : ScreenSaverView
+
+@property (nonatomic, strong) NSMutableArray *specks;
+@property (nonatomic, retain) NSBezierPath *connections;
 
 @end
